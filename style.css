@@ -6,9 +6,11 @@ li {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  align-items: center;
 }
 li > label {
   margin-right: auto;
+  font-size: 1.2rem;
 }
 .animate {
   animation: bounce 1s ease infinite;
