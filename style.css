@@ -1,0 +1,27 @@
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+li > label {
+  margin-right: auto;
+}
+.animate {
+  animation: bounce 1s ease infinite;
+  box-shadow: 1px 1px 2px rgb(1, 155, 245);
+}
+@keyframes bounce {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 0.9;
+  }
+  100% {
+    scale: 1;
+  }
+}
